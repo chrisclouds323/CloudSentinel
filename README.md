@@ -18,6 +18,12 @@ CloudSentinel detects and alerts on high-risk IAM and audit log activity across 
 
 ## 📊 Architecture
 
+## 📊 Architecture Diagram
+
+![CloudSentinel Architecture](architecture-diagram.png)
+
+
+
 ```
 [Audit Logs] --> [Log Sink] --> [Pub/Sub Topic] --> [Cloud Function] --> [Slack Alert]
 ```
